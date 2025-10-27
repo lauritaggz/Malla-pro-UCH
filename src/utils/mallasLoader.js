@@ -2,19 +2,15 @@
 export async function listarMallas() {
   const universidades = [
     {
-      universidad: "Universidad Andrés Bello",
+      universidad: "Universidad de Chile",
       mallas: [
         {
-          nombre: "Ingeniería Civil Industrial",
-          url: "/mallas/unab/Industrial.json",
+          nombre: "Quimica y Farmacia",
+          url: "/mallas/QYF.json",
         },
         {
-          nombre: "Ingeniería en Computación e Informática",
-          url: "/mallas/unab/Comp.json",
-        },
-        {
-          nombre: "Geología",
-          url: "/mallas/unab/Geo.json",
+          nombre: "Bioquimica",
+          url: "/mallas/BQ.json",
         },
       ],
     },

@@ -1,0 +1,524 @@
+{
+  "carrera": "Química y Farmacia (UCH)",
+  "total_creditos": 330,
+  "semestres": [
+    {
+      "numero": 1,
+      "cursos": [
+        {
+          "id": 1,
+          "codigo": "",
+          "nombre": "Química General I",
+          "sct": 8,
+          "prerrequisitos": []
+        },
+        {
+          "id": 3,
+          "codigo": "",
+          "nombre": "Introducción al Álgebra y Cálculo",
+          "sct": 8,
+          "prerrequisitos": []
+        },
+        {
+          "id": 2,
+          "codigo": "",
+          "nombre": "Técnicas de Laboratorio Químico",
+          "sct": 4,
+          "prerrequisitos": []
+        },
+        {
+          "id": 5,
+          "codigo": "",
+          "nombre": "Curso de Formación General",
+          "sct": 4,
+          "prerrequisitos": []
+        },
+        {
+          "id": 4,
+          "codigo": "",
+          "nombre": "Orientación Farmacéutica",
+          "sct": 3,
+          "prerrequisitos": []
+        },
+        {
+          "id": 6,
+          "codigo": "",
+          "nombre": "Inglés I",
+          "sct": 3,
+          "prerrequisitos": []
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "cursos": [
+        {
+          "id": 10,
+          "codigo": "",
+          "nombre": "Cálculo Diferencial e Integral",
+          "sct": 6,
+          "prerrequisitos": [3]
+        },
+        {
+          "id": 9,
+          "codigo": "",
+          "nombre": "Física General",
+          "sct": 5,
+          "prerrequisitos": [3]
+        },
+        {
+          "id": 7,
+          "codigo": "",
+          "nombre": "Química General II",
+          "sct": 5,
+          "prerrequisitos": [1]
+        },
+        {
+          "id": 12,
+          "codigo": "",
+          "nombre": "Biología Celular",
+          "sct": 5,
+          "prerrequisitos": [2]
+        },
+        {
+          "id": 11,
+          "codigo": "",
+          "nombre": "Química Transformadora",
+          "sct": 3,
+          "prerrequisitos": []
+        },
+        {
+          "id": 8,
+          "codigo": "",
+          "nombre": "Laboratorio de Química General",
+          "sct": 3,
+          "prerrequisitos": [1, 2]
+        },
+        {
+          "id": 13,
+          "codigo": "",
+          "nombre": "Inglés II",
+          "sct": 3,
+          "prerrequisitos": [6]
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "cursos": [
+        {
+          "id": 16,
+          "codigo": "",
+          "nombre": "Química Orgánica I",
+          "sct": 5,
+          "prerrequisitos": [7]
+        },
+        {
+          "id": 17,
+          "codigo": "",
+          "nombre": "Química Analítica I",
+          "sct": 5,
+          "prerrequisitos": [7, 8]
+        },
+        {
+          "id": 21,
+          "codigo": "",
+          "nombre": "Fisiología Celular",
+          "sct": 5,
+          "prerrequisitos": [9, 12]
+        },
+        {
+          "id": 18,
+          "codigo": "",
+          "nombre": "Laboratorio I de Química Orgánica",
+          "sct": 4,
+          "prerrequisitos": [7, 8]
+        },
+        {
+          "id": 19,
+          "codigo": "",
+          "nombre": "Estadística y Análisis de Datos",
+          "sct": 4,
+          "prerrequisitos": [10]
+        },
+
+        {
+          "id": 15,
+          "codigo": "",
+          "nombre": "Inglés III",
+          "sct": 3,
+          "prerrequisitos": [13]
+        },
+        {
+          "id": 14,
+          "codigo": "",
+          "nombre": "Curso de Formación General",
+          "sct": 2,
+          "prerrequisitos": []
+        },
+        {
+          "id": 20,
+          "codigo": "",
+          "nombre": "Fundamentos de Ciencias Farmacéuticas",
+          "sct": 2,
+          "prerrequisitos": [4, 11]
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "cursos": [
+        {
+          "id": 25,
+          "codigo": "",
+          "nombre": "Fisicoquímica I",
+          "sct": 6,
+          "prerrequisitos": [9, 10, 14]
+        },
+        {
+          "id": 22,
+          "codigo": "",
+          "nombre": "Química Orgánica II",
+          "sct": 5,
+          "prerrequisitos": [14]
+        },
+        {
+          "id": 24,
+          "codigo": "",
+          "nombre": "Química Analítica II",
+          "sct": 5,
+          "prerrequisitos": [15]
+        },
+        {
+          "id": 23,
+          "codigo": "",
+          "nombre": "Laboratorio de Análisis Químico",
+          "sct": 4,
+          "prerrequisitos": [8, 15, 17]
+        },
+        {
+          "id": 26,
+          "codigo": "",
+          "nombre": "Fisiología de Sistemas",
+          "sct": 4,
+          "prerrequisitos": [19]
+        },
+        {
+          "id": 27,
+          "codigo": "",
+          "nombre": "Práctica Intermedia",
+          "sct": 3,
+          "prerrequisitos": [17, 18]
+        },
+        {
+          "id": 15,
+          "codigo": "",
+          "nombre": "Inglés IV",
+          "sct": 3,
+          "prerrequisitos": [13]
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "cursos": [
+        {
+          "id": 29,
+          "codigo": "",
+          "nombre": "Botánica y Farmacognosia",
+          "sct": 7,
+          "prerrequisitos": [22, 24]
+        },
+        {
+          "id": 32,
+          "codigo": "",
+          "nombre": "Farmacología General",
+          "sct": 6,
+          "prerrequisitos": [23, 26]
+        },
+        {
+          "id": 30,
+          "codigo": "",
+          "nombre": "Química de Heterocíclicos y Análisis Espectroscópico",
+          "sct": 5,
+          "prerrequisitos": [22]
+        },
+        {
+          "id": 31,
+          "codigo": "",
+          "nombre": "Bioquímica",
+          "sct": 5,
+          "prerrequisitos": [22]
+        },
+        {
+          "id": 28,
+          "codigo": "",
+          "nombre": "Laboratorio de Análisis Instrumental",
+          "sct": 4,
+          "prerrequisitos": [23, 24]
+        },
+        {
+          "id": 33,
+          "codigo": "",
+          "nombre": "Gestión de Calidad",
+          "sct": 3,
+          "prerrequisitos": [18]
+        }
+      ]
+    },
+    {
+      "numero": 6,
+      "cursos": [
+        {
+          "id": 39,
+          "codigo": "",
+          "nombre": "Fisicoquímica Farmacéutica",
+          "sct": 6,
+          "prerrequisitos": [25]
+        },
+        {
+          "id": 34,
+          "codigo": "",
+          "nombre": "Microbiología",
+          "sct": 5,
+          "prerrequisitos": [32]
+        },
+        {
+          "id": 35,
+          "codigo": "",
+          "nombre": "Farmacoquímica I",
+          "sct": 5,
+          "prerrequisitos": [31, 33]
+        },
+        {
+          "id": 36,
+          "codigo": "",
+          "nombre": "Farmacología de Sistemas I",
+          "sct": 5,
+          "prerrequisitos": [33]
+        },
+        {
+          "id": 37,
+          "codigo": "",
+          "nombre": "Fisiopatología Molecular",
+          "sct": 5,
+          "prerrequisitos": [26, 32]
+        },
+        {
+          "id": 38,
+          "codigo": "",
+          "nombre": "Legislación Farmacéutica",
+          "sct": 4,
+          "prerrequisitos": [27, 34]
+        }
+      ]
+    },
+    {
+      "numero": 7,
+      "cursos": [
+        {
+          "id": 42,
+          "codigo": "",
+          "nombre": "Farmacología de Sistemas II",
+          "sct": 6,
+          "prerrequisitos": [35, 37]
+        },
+        {
+          "id": 44,
+          "codigo": "",
+          "nombre": "Tecnología Farmacéutica I",
+          "sct": 6,
+          "prerrequisitos": [39, 40]
+        },
+        {
+          "id": 40,
+          "codigo": "",
+          "nombre": "Fisiopatología y Semiología",
+          "sct": 5,
+          "prerrequisitos": [38]
+        },
+        {
+          "id": 41,
+          "codigo": "",
+          "nombre": "Farmacoquímica II",
+          "sct": 5,
+          "prerrequisitos": [36]
+        },
+        {
+          "id": 45,
+          "codigo": "",
+          "nombre": "Operaciones Unitarias para QyF",
+          "sct": 5,
+          "prerrequisitos": [40]
+        },
+        {
+          "id": 43,
+          "codigo": "",
+          "nombre": "Salud Pública",
+          "sct": 3,
+          "prerrequisitos": [39]
+        }
+      ]
+    },
+    {
+      "numero": 8,
+      "cursos": [
+        {
+          "id": 49,
+          "codigo": "",
+          "nombre": "Biofarmacia y Farmacocinética",
+          "sct": 6,
+          "prerrequisitos": [33, 45]
+        },
+        {
+          "id": 50,
+          "codigo": "",
+          "nombre": "Tecnología Farmacéutica II",
+          "sct": 6,
+          "prerrequisitos": [45, 46]
+        },
+        {
+          "id": 46,
+          "codigo": "",
+          "nombre": "Análisis de Medicamentos, Doping y Drogas de Abuso",
+          "sct": 5,
+          "prerrequisitos": [29, 42]
+        },
+        {
+          "id": 48,
+          "codigo": "",
+          "nombre": "Bioquímica Clínica",
+          "sct": 4,
+          "prerrequisitos": [41]
+        },
+        {
+          "id": 47,
+          "codigo": "",
+          "nombre": "Nutrición Clínica",
+          "sct": 3,
+          "prerrequisitos": [41]
+        },
+        {
+          "id": 51,
+          "codigo": "",
+          "nombre": "Administración y Gestión Farmacéutica",
+          "sct": 3,
+          "prerrequisitos": [45]
+        },
+        {
+          "id": 52,
+          "codigo": "",
+          "nombre": "Estadística Farmacéutica",
+          "sct": 3,
+          "prerrequisitos": [17, 44]
+        }
+      ]
+    },
+    {
+      "numero": 9,
+      "cursos": [
+        {
+          "id": 53,
+          "codigo": "",
+          "nombre": "Farmacología Clínica",
+          "sct": 6,
+          "prerrequisitos": [43, 49, 50]
+        },
+        {
+          "id": 55,
+          "codigo": "",
+          "nombre": "Toxicología",
+          "sct": 5,
+          "prerrequisitos": [43, 49]
+        },
+        {
+          "id": 54,
+          "codigo": "",
+          "nombre": "Bromatología",
+          "sct": 4,
+          "prerrequisitos": [29, 48]
+        },
+        {
+          "id": 56,
+          "codigo": "",
+          "nombre": "Farmacia Asistencial",
+          "sct": 4,
+          "prerrequisitos": [44, 52]
+        },
+        {
+          "id": 57,
+          "codigo": "",
+          "nombre": "Tecnología Cosmética",
+          "sct": 4,
+          "prerrequisitos": [51]
+        },
+        {
+          "id": 58,
+          "codigo": "",
+          "nombre": "Electivo Especializado",
+          "sct": 7,
+          "prerrequisitos": []
+        }
+      ]
+    },
+    {
+      "numero": 10,
+      "cursos": [
+        {
+          "id": 60,
+          "codigo": "",
+          "nombre": "Práctica Profesional en Farmacia Comunitaria",
+          "sct": 7,
+          "prerrequisitos": [52, 54, 56]
+        },
+        {
+          "id": 59,
+          "codigo": "",
+          "nombre": "Farmacia Clínica",
+          "sct": 5,
+          "prerrequisitos": [54]
+        },
+        {
+          "id": 61,
+          "codigo": "",
+          "nombre": "Biotecnología Farmacéutica",
+          "sct": 4,
+          "prerrequisitos": [38, 51]
+        },
+        {
+          "id": 62,
+          "codigo": "",
+          "nombre": "Economía en Salud y Marketing Farmacéutico",
+          "sct": 3,
+          "prerrequisitos": [44, 52, 54]
+        },
+        {
+          "id": 63,
+          "codigo": "",
+          "nombre": "Innovación y Proyectos",
+          "sct": 3,
+          "prerrequisitos": [53]
+        },
+        {
+          "id": 64,
+          "codigo": "",
+          "nombre": "Electivos Especializados",
+          "sct": 8,
+          "prerrequisitos": []
+        }
+      ]
+    },
+    {
+      "numero": 11,
+      "cursos": [
+        {
+          "id": 65,
+          "codigo": "",
+          "nombre": "Actividad Final de Titulación",
+          "sct": 30,
+          "prerrequisitos": []
+        }
+      ]
+    }
+  ]
+}
