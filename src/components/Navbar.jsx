@@ -36,9 +36,7 @@ export default function Navbar({
                   {mallaSeleccionada.nombre}
                 </h1>
                 <span className="text-sm text-textSecondary">
-                  {mallaSeleccionada.url.includes("uch")
-                    ? "Universidad de Chile"
-                    : "UNAB"}
+                  Universidad de Chile
                 </span>
               </>
             )}
