@@ -107,49 +107,49 @@
       "numero": 3,
       "cursos": [
         {
-          "id": 14,
+          "id": 20,
           "codigo": "",
           "nombre": "Cultura Científica: Divulgación y Enseñanza",
           "sct": 3,
           "prerrequisitos": [4, 5]
         },
         {
-          "id": 16,
+          "id": 14,
           "codigo": "",
           "nombre": "Química Orgánica I",
           "sct": 5,
           "prerrequisitos": [7]
         },
         {
-          "id": 17,
+          "id": 15,
           "codigo": "",
           "nombre": "Química Analítica I",
           "sct": 5,
           "prerrequisitos": [7, 8]
         },
         {
-          "id": 21,
+          "id": 19,
           "codigo": "",
           "nombre": "Fisiología Celular",
           "sct": 5,
           "prerrequisitos": [9, 11]
         },
         {
-          "id": 18,
+          "id": 16,
           "codigo": "",
           "nombre": "Laboratorio I de Química Orgánica",
           "sct": 4,
           "prerrequisitos": [7, 8]
         },
         {
-          "id": 19,
+          "id": 17,
           "codigo": "",
           "nombre": "Estadística y Análisis de Datos",
           "sct": 4,
           "prerrequisitos": [10]
         },
         {
-          "id": 20,
+          "id": 18,
           "codigo": "",
           "nombre": "Física Aplicada a la Bioquímica",
           "sct": 4,
@@ -161,49 +161,49 @@
       "numero": 4,
       "cursos": [
         {
-          "id": 22,
+          "id": 21,
           "codigo": "",
           "nombre": "Química Orgánica II",
           "sct": 5,
           "prerrequisitos": [14]
         },
         {
-          "id": 23,
+          "id": 22,
           "codigo": "",
           "nombre": "Laboratorio de Análisis Químico",
           "sct": 4,
           "prerrequisitos": [8, 15, 17]
         },
         {
-          "id": 24,
+          "id": 23,
           "codigo": "",
           "nombre": "Química Analítica II",
           "sct": 5,
           "prerrequisitos": [17]
         },
         {
-          "id": 25,
+          "id": 24,
           "codigo": "",
           "nombre": "Fisicoquímica I",
           "sct": 6,
           "prerrequisitos": [9, 10, 14]
         },
         {
-          "id": 26,
+          "id": 25,
           "codigo": "",
           "nombre": "Fisiología de Sistemas",
           "sct": 4,
           "prerrequisitos": [19]
         },
         {
-          "id": 15,
+          "id": 27,
           "codigo": "",
           "nombre": "Curso de Formación General",
           "sct": 3,
           "prerrequisitos": []
         },
         {
-          "id": 27,
+          "id": 26,
           "codigo": "",
           "nombre": "Taller de Cultura Científica",
           "sct": 3,
