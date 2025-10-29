@@ -179,7 +179,7 @@
           "codigo": "",
           "nombre": "Química Analítica II",
           "sct": 5,
-          "prerrequisitos": [15]
+          "prerrequisitos": [17]
         },
         {
           "id": 25,
