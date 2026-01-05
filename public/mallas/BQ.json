@@ -1,0 +1,481 @@
+{
+  "carrera": "Bioquímica (UCH)",
+  "total_creditos": 330,
+  "semestres": [
+    {
+      "numero": 1,
+      "cursos": [
+        {
+          "id": 1,
+          "codigo": "",
+          "nombre": "Química General I",
+          "sct": 8,
+          "prerrequisitos": []
+        },
+        {
+          "id": 2,
+          "codigo": "",
+          "nombre": "Técnicas de Laboratorio Químico",
+          "sct": 4,
+          "prerrequisitos": []
+        },
+        {
+          "id": 3,
+          "codigo": "",
+          "nombre": "Introducción al Álgebra y Cálculo",
+          "sct": 8,
+          "prerrequisitos": []
+        },
+        {
+          "id": 4,
+          "codigo": "",
+          "nombre": "Química Transformadora",
+          "sct": 3,
+          "prerrequisitos": []
+        },
+        {
+          "id": 5,
+          "codigo": "",
+          "nombre": "Razonamiento y Comunicación Científica",
+          "sct": 4,
+          "prerrequisitos": []
+        },
+        {
+          "id": 6,
+          "codigo": "",
+          "nombre": "Inglés I",
+          "sct": 3,
+          "prerrequisitos": []
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "cursos": [
+        {
+          "id": 7,
+          "codigo": "",
+          "nombre": "Química General II",
+          "sct": 5,
+          "prerrequisitos": [1]
+        },
+        {
+          "id": 8,
+          "codigo": "",
+          "nombre": "Laboratorio de Química General",
+          "sct": 3,
+          "prerrequisitos": [1, 2]
+        },
+        {
+          "id": 9,
+          "codigo": "",
+          "nombre": "Física General",
+          "sct": 5,
+          "prerrequisitos": [3]
+        },
+        {
+          "id": 10,
+          "codigo": "",
+          "nombre": "Cálculo Diferencial e Integral",
+          "sct": 6,
+          "prerrequisitos": [3]
+        },
+        {
+          "id": 11,
+          "codigo": "",
+          "nombre": "Biología Celular",
+          "sct": 5,
+          "prerrequisitos": [2]
+        },
+        {
+          "id": 13,
+          "codigo": "",
+          "nombre": "Inglés II",
+          "sct": 3,
+          "prerrequisitos": [6]
+        },
+        {
+          "id": 12,
+          "codigo": "",
+          "nombre": "Curso de Formación General",
+          "sct": 3,
+          "prerrequisitos": []
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "cursos": [
+        {
+          "id": 20,
+          "codigo": "",
+          "nombre": "Cultura Científica: Divulgación y Enseñanza",
+          "sct": 3,
+          "prerrequisitos": [4, 5]
+        },
+        {
+          "id": 14,
+          "codigo": "",
+          "nombre": "Química Orgánica I",
+          "sct": 5,
+          "prerrequisitos": [7]
+        },
+        {
+          "id": 15,
+          "codigo": "",
+          "nombre": "Química Analítica I",
+          "sct": 5,
+          "prerrequisitos": [7, 8]
+        },
+        {
+          "id": 19,
+          "codigo": "",
+          "nombre": "Fisiología Celular",
+          "sct": 5,
+          "prerrequisitos": [9, 11]
+        },
+        {
+          "id": 16,
+          "codigo": "",
+          "nombre": "Laboratorio I de Química Orgánica",
+          "sct": 4,
+          "prerrequisitos": [7, 8]
+        },
+        {
+          "id": 17,
+          "codigo": "",
+          "nombre": "Estadística y Análisis de Datos",
+          "sct": 4,
+          "prerrequisitos": [10]
+        },
+        {
+          "id": 18,
+          "codigo": "",
+          "nombre": "Física Aplicada a la Bioquímica",
+          "sct": 4,
+          "prerrequisitos": [9]
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "cursos": [
+        {
+          "id": 21,
+          "codigo": "",
+          "nombre": "Química Orgánica II",
+          "sct": 5,
+          "prerrequisitos": [14]
+        },
+        {
+          "id": 22,
+          "codigo": "",
+          "nombre": "Laboratorio de Análisis Químico",
+          "sct": 4,
+          "prerrequisitos": [8, 15, 17]
+        },
+        {
+          "id": 23,
+          "codigo": "",
+          "nombre": "Química Analítica II",
+          "sct": 5,
+          "prerrequisitos": [17]
+        },
+        {
+          "id": 24,
+          "codigo": "",
+          "nombre": "Fisicoquímica I",
+          "sct": 6,
+          "prerrequisitos": [9, 10, 14]
+        },
+        {
+          "id": 25,
+          "codigo": "",
+          "nombre": "Fisiología de Sistemas",
+          "sct": 4,
+          "prerrequisitos": [19]
+        },
+        {
+          "id": 27,
+          "codigo": "",
+          "nombre": "Curso de Formación General",
+          "sct": 3,
+          "prerrequisitos": []
+        },
+        {
+          "id": 26,
+          "codigo": "",
+          "nombre": "Taller de Cultura Científica",
+          "sct": 3,
+          "prerrequisitos": [20]
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "cursos": [
+        {
+          "id": 28,
+          "codigo": "",
+          "nombre": "Laboratorio de Análisis Instrumental",
+          "sct": 4,
+          "prerrequisitos": [22, 23]
+        },
+        {
+          "id": 29,
+          "codigo": "",
+          "nombre": "Bioquímica General",
+          "sct": 9,
+          "prerrequisitos": [21, 24]
+        },
+        {
+          "id": 30,
+          "codigo": "",
+          "nombre": "Estructura y Función de Organelos Celulares",
+          "sct": 6,
+          "prerrequisitos": [21, 25]
+        },
+        {
+          "id": 31,
+          "codigo": "",
+          "nombre": "Fisicoquímica para Ciencias Biológicas",
+          "sct": 7,
+          "prerrequisitos": [18, 24]
+        },
+        {
+          "id": 32,
+          "codigo": "",
+          "nombre": "Inglés III",
+          "sct": 3,
+          "prerrequisitos": [13]
+        }
+      ]
+    },
+    {
+      "numero": 6,
+      "cursos": [
+        {
+          "id": 33,
+          "codigo": "",
+          "nombre": "Estructura y Función de Proteínas",
+          "sct": 8,
+          "prerrequisitos": [29, 31]
+        },
+        {
+          "id": 34,
+          "codigo": "",
+          "nombre": "Genética Molecular",
+          "sct": 8,
+          "prerrequisitos": [29]
+        },
+        {
+          "id": 35,
+          "codigo": "",
+          "nombre": "Inmunología Celular y Molecular",
+          "sct": 7,
+          "prerrequisitos": [30]
+        },
+        {
+          "id": 36,
+          "codigo": "",
+          "nombre": "Microbiología General",
+          "sct": 5,
+          "prerrequisitos": [30]
+        },
+        {
+          "id": 37,
+          "codigo": "",
+          "nombre": "Inglés IV",
+          "sct": 3,
+          "prerrequisitos": [32]
+        }
+      ]
+    },
+    {
+      "numero": 7,
+      "cursos": [
+        {
+          "id": 38,
+          "codigo": "",
+          "nombre": "Química Fisiológica y Patológica",
+          "sct": 6,
+          "prerrequisitos": [33, 35]
+        },
+        {
+          "id": 39,
+          "codigo": "",
+          "nombre": "Genética Molecular de Eucariontes",
+          "sct": 6,
+          "prerrequisitos": [34]
+        },
+        {
+          "id": 40,
+          "codigo": "",
+          "nombre": "Fisiología y Genética Microbiana",
+          "sct": 8,
+          "prerrequisitos": [34, 36]
+        },
+        {
+          "id": 41,
+          "codigo": "",
+          "nombre": "Administración y Gestión",
+          "sct": 4,
+          "prerrequisitos": [26]
+        },
+        {
+          "id": 42,
+          "codigo": "",
+          "nombre": "Unidad de Investigación en Bioquímica",
+          "sct": 6,
+          "prerrequisitos": [28, 29]
+        }
+      ]
+    },
+    {
+      "numero": 8,
+      "cursos": [
+        {
+          "id": 43,
+          "codigo": "",
+          "nombre": "Bioquímica Clínica y Patológica",
+          "sct": 8,
+          "prerrequisitos": [38]
+        },
+        {
+          "id": 44,
+          "codigo": "",
+          "nombre": "Fisiología y Bioquímica Vegetal",
+          "sct": 4,
+          "prerrequisitos": [39]
+        },
+        {
+          "id": 45,
+          "codigo": "",
+          "nombre": "Bioética",
+          "sct": 3,
+          "prerrequisitos": [38]
+        },
+        {
+          "id": 46,
+          "codigo": "",
+          "nombre": "Formulación y Evaluación de Proyectos Científicos",
+          "sct": 4,
+          "prerrequisitos": [33]
+        },
+        {
+          "id": 47,
+          "codigo": "",
+          "nombre": "Bioinformática",
+          "sct": 5,
+          "prerrequisitos": [33, 39]
+        },
+        {
+          "id": 48,
+          "codigo": "",
+          "nombre": "Práctica Profesional I",
+          "sct": 6,
+          "prerrequisitos": [33, 34]
+        }
+      ]
+    },
+    {
+      "numero": 9,
+      "cursos": [
+        {
+          "id": 49,
+          "codigo": "",
+          "nombre": "Laboratorio de Bioquímica Clínica",
+          "sct": 6,
+          "prerrequisitos": [41, 43]
+        },
+        {
+          "id": 50,
+          "codigo": "",
+          "nombre": "Tópicos de Farmacología",
+          "sct": 4,
+          "prerrequisitos": [43, 45]
+        },
+        {
+          "id": 51,
+          "codigo": "",
+          "nombre": "Biotecnología",
+          "sct": 6,
+          "prerrequisitos": [43, 45]
+        },
+        {
+          "id": 54,
+          "codigo": "",
+          "nombre": "Práctica Profesional II",
+          "sct": 6,
+          "prerrequisitos": [43, 47, 48]
+        },
+        {
+          "id": 52,
+          "codigo": "",
+          "nombre": "Electivo Especializado",
+          "sct": 4,
+          "prerrequisitos": []
+        },
+        {
+          "id": 53,
+          "codigo": "",
+          "nombre": "Electivo Especializado",
+          "sct": 4,
+          "prerrequisitos": []
+        }
+      ]
+    },
+    {
+      "numero": 10,
+      "cursos": [
+        {
+          "id": 55,
+          "codigo": "",
+          "nombre": "Unidad de Investigación Avanzada en Bioquímica",
+          "sct": 7,
+          "prerrequisitos": [42, 49, 51]
+        },
+        {
+          "id": 56,
+          "codigo": "",
+          "nombre": "Bioprocesos Industriales",
+          "sct": 6,
+          "prerrequisitos": [41, 51]
+        },
+        {
+          "id": 57,
+          "codigo": "",
+          "nombre": "Electivo Especializado",
+          "sct": 4,
+          "prerrequisitos": []
+        },
+        {
+          "id": 58,
+          "codigo": "",
+          "nombre": "Electivo Especializado",
+          "sct": 5,
+          "prerrequisitos": []
+        },
+        {
+          "id": 59,
+          "codigo": "",
+          "nombre": "Proyecto de Memoria de Título",
+          "sct": 8,
+          "prerrequisitos": [46, 49, 50, 51]
+        }
+      ]
+    },
+    {
+      "numero": 11,
+      "cursos": [
+        {
+          "id": 60,
+          "codigo": "",
+          "nombre": "Memoria de Título",
+          "sct": 30,
+          "prerrequisitos": [59]
+        }
+      ]
+    }
+  ]
+}
