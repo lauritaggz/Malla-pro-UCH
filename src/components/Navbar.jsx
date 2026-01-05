@@ -66,7 +66,7 @@ export default function Navbar({
                     className="text-xs md:text-sm font-medium text-textSecondary 
                                   px-3 py-1 rounded-full bg-bgTertiary/60 border border-borderColor"
                   >
-                    <GraduationCap className="w-4 h-4 text-primary" />
+                    <GraduationCap className="w-5 h-4 text-primary" />
                     {mallaSeleccionada.url.includes("uch")
                       ? "Universidad de Chile"
                       : "Universidad de Chile"}
