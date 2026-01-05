@@ -69,7 +69,7 @@ export default function Navbar({
                     <GraduationCap className="w-4 h-4 text-primary" />
                     {mallaSeleccionada.url.includes("uch")
                       ? "Universidad de Chile"
-                      : "UNAB"}
+                      : "Universidad de Chile"}
                   </span>
                 </div>
               </>
